@@ -34,28 +34,31 @@ Built with <strong>Godot Engine 4</strong>, Stellar Grand Prix delivers responsi
 
 Play **Stellar Grand Prix** on Itch.io:
 
-https://cleoaguiar.itch.io/stellar-grand-prix
+👉 https://cleoaguiar.itch.io/stellar-grand-prix
 
 ---
 
 ## ✨ Features
 
-- 🚀 Fast-paced arcade racing gameplay
+- 🚀 Fast-paced 2D arcade racing gameplay
 - 🌌 Futuristic space-themed circuit
-- 🎯 Responsive keyboard controls
+- 🎯 Keyboard controls for desktop
 - 👆 Swipe gesture controls for touch devices
-- 📱 Responsive window scaling for different screen sizes
+- 📱 Responsive window scaling
 - 🖼️ Adaptive background layout
+- 🔊 Sound effects and background music
+- ⚙️ In-game settings for audio and display options
 - 🛸 Sci-fi visual style
 - ⚡ Built with Godot Engine 4
 
 ---
 
-## 🛠 Built With
+## 🛠️ Built With
 
-- Godot Engine 4
-- GDScript
-- Git & GitHub
+- **Godot Engine 4**
+- **GDScript**
+- **Git**
+- **GitHub**
 
 ---
 
@@ -64,7 +67,7 @@ https://cleoaguiar.itch.io/stellar-grand-prix
 ### Desktop
 
 | Action | Keyboard |
-|---------|----------|
+| --- | --- |
 | Accelerate | ↑ |
 | Brake / Reverse | ↓ |
 | Turn Left | ← |
@@ -73,13 +76,28 @@ https://cleoaguiar.itch.io/stellar-grand-prix
 ### Mobile / Touch Devices
 
 | Action | Gesture |
-|---------|---------|
+| --- | --- |
 | Accelerate | Swipe Up |
 | Brake / Reverse | Swipe Down |
 | Turn Left | Swipe Left |
 | Turn Right | Swipe Right |
 
-The game automatically adapts the interface and input handling depending on the device.
+The game automatically adapts input handling depending on the device.
+
+---
+
+## 🔊 Audio
+
+The game includes:
+
+- Background music during races
+- Sound effects for collisions
+- Victory sound
+- Restart sound
+- UI button feedback
+- Independent music and sound effect settings
+
+Audio assets are organized separately from the game's visual and gameplay resources.
 
 ---
 
@@ -87,35 +105,57 @@ The game automatically adapts the interface and input handling depending on the 
 
 Stellar Grand Prix supports different screen sizes through responsive window scaling and adaptive background positioning.
 
-The game is designed to maintain consistent gameplay across desktop and touch devices, providing a smooth experience on different resolutions.
+The game is designed to maintain consistent gameplay across desktop and touch devices while adapting the interface to different resolutions.
 
 ---
 
 ## 📂 Project Organization
 
-The project is organized into:
-
 ```text
-├── assets/        # Visual assets
-├── docs/          # Documentation and screenshots
-├── scenes/        # Game scenes
-├── scripts/       # GDScript files
-└── project.godot  # Godot project configuration
+├── assets/
+│   ├── audio/
+│   └── ...
+├── docs/              # Documentation and screenshots
+├── scenes/            # Godot scenes
+├── scripts/           # GDScript files
+├── .github/
+│   └── workflows/     # CI/CD workflows
+└── project.godot      # Godot project configuration
 ```
 
-As development continues, additional folders for audio, UI, and game content may be added to keep the project scalable and maintainable.
+The project structure is organized to keep game content, scripts, assets, documentation, and automation separated and maintainable.
 
 ---
 
 ## 🚀 Getting Started
 
+### Prerequisites
+* Godot Engine 4
+* Git
+
 Clone the repository:
 
 ```bash
 git clone https://github.com/CleoAguiar/stellar-grand-prix.git
+cd stellar-grand-prix
 ```
 
 Open the project with **Godot Engine 4** and press **F5** to run.
+
+---
+
+## 🔄 CI/CD
+
+The project uses **GitHub Actions** to automate parts of the development and release workflow.
+
+Current automation includes:
+
+* Automated project validation
+* Build/export verification
+* Release management
+* Publishing builds to Itch.io
+
+This workflow helps keep the project buildable and simplifies the release process.
 
 ---
 
@@ -124,11 +164,13 @@ Open the project with **Godot Engine 4** and press **F5** to run.
 - [x] Responsive window scaling
 - [x] Adaptive background layout
 - [x] Mobile swipe gesture controls
+- [x] Sound effects
+- [x] Background music
+- [x] Audio settings
 - [ ] Additional race tracks
 - [ ] More spacecraft
 - [ ] Boost mechanics
 - [ ] Improved user interface
-- [ ] Sound effects and music
 
 ---
 
@@ -136,21 +178,26 @@ Open the project with **Godot Engine 4** and press **F5** to run.
 
 🚧 **Active Development**
 
-Stellar Grand Prix is under continuous development, with improvements focused on gameplay mechanics, accessibility, visual polish, and new racing content.
+Stellar Grand Prix is an ongoing personal project.
+
+Current development focuses on improving the core gameplay experience, polishing the interface and audio, and gradually expanding the available racing content while keeping the project scope manageable.
 
 ---
 
 ## 🤝 Contributing
 
-Suggestions, bug reports, and feedback are always welcome.
+Suggestions, bug reports, and feedback are welcome.
 
-Feel free to open an Issue or submit a Pull Request.
+Feel free to:
+* Open an **Issue**
+* Submit a **Pull Request**
+* Share feedback about the game
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 

@@ -14,7 +14,13 @@ func _ready() -> void:
 	collision_player.stream = preload("res://assets/audio/sfx/gameplay/collision.ogg")
 	victory_player.stream = preload("res://assets/audio/sfx/events/victory.ogg")
 	restart_player.stream = preload("res://assets/audio/sfx/events/restart.ogg")
-	music_player.stream = preload("res://assets/audio/music/race_theme.ogg")
+
+	music_player.finished.connect(_on_music_finished)
+
+func _on_music_finished() -> void:
+	if music_enabled:
+		music_player.play()
+
 
 func play_button() -> void:
 	button_player.play()

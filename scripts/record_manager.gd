@@ -6,7 +6,7 @@ func get_record(track_name: String) -> int:
 	var config = ConfigFile.new()
 
 	if config.load(SAVE_FILE) != OK:
-		return -1.0
+		return -1
 
 	return config.get_value("records", track_name, -1.0)
 

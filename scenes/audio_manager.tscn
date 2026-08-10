@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://1d63bv3uu0pg"]
 
 [ext_resource type="Script" uid="uid://b2n0pnrpl5rh1" path="res://scripts/audio_manager.gd" id="1_8qd8g"]
-
-[sub_resource type="AudioStreamOggVorbis" id="AudioStreamOggVorbis_vcisa"]
+[ext_resource type="AudioStream" uid="uid://58qvfpvftjub" path="res://assets/audio/music/race_theme.ogg" id="2_liach"]
 
 [node name="AudioManager" type="Node" unique_id=1477840284]
 script = ExtResource("1_8qd8g")
@@ -20,6 +19,5 @@ bus = &"SFX"
 bus = &"SFX"
 
 [node name="MusicPlayer" type="AudioStreamPlayer" parent="." unique_id=1329573270]
-stream = SubResource("AudioStreamOggVorbis_vcisa")
+stream = ExtResource("2_liach")
 bus = &"Music"
-parameters/looping = true

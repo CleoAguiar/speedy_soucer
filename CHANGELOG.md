@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/CleoAguiar/stellar-grand-prix/compare/v0.5.0...v0.5.1) (2026-08-10)
+
+
+### Bug Fixes
+
+* fix race music loop on web ([#36](https://github.com/CleoAguiar/stellar-grand-prix/issues/36)) ([e97843a](https://github.com/CleoAguiar/stellar-grand-prix/commit/e97843a6aedfe58708d87cf80fa54c331b8a3eaa))
+
 ## [0.5.0](https://github.com/CleoAguiar/stellar-grand-prix/compare/v0.4.2...v0.5.0) (2026-08-07)
 
 

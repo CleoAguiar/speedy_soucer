@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccu5755n8w5du"
-path="res://.godot/imported/ufoGreen.png-9bc7b9b3792be1e6fc0f195e21c311a9.ctex"
+uid="uid://b3ygcdc0cinho"
+path="res://.godot/imported/spaceship1.png-f7dd039557818d8c17406b95b882d700.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/ufoGreen.png"
-dest_files=["res://.godot/imported/ufoGreen.png-9bc7b9b3792be1e6fc0f195e21c311a9.ctex"]
+source_file="res://assets/sprites/project/spaceship1.png"
+dest_files=["res://.godot/imported/spaceship1.png-f7dd039557818d8c17406b95b882d700.ctex"]
 
 [params]
 

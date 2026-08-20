@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c03st0p0y5sfg"
-path="res://.godot/imported/background_dark.png-5cf6b5fd1100f787f177d7ded903d558.ctex"
+uid="uid://cwpdg74woxmeu"
+path="res://.godot/imported/track700.png-9286df2cc1c25e90d54c3701e3deb199.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/project/background_dark.png"
-dest_files=["res://.godot/imported/background_dark.png-5cf6b5fd1100f787f177d7ded903d558.ctex"]
+source_file="res://assets/sprites/track700.png"
+dest_files=["res://.godot/imported/track700.png-9286df2cc1c25e90d54c3701e3deb199.ctex"]
 
 [params]
 

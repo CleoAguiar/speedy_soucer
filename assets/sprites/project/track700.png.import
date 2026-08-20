@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://diblcong65428"
-path="res://.godot/imported/background.svg-29d5b36335b7d586854ee303c8aa698e.ctex"
+uid="uid://c60ar2w8mi3ru"
+path="res://.godot/imported/track700.png-66fe696adebea0294383d238e15e385b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/project/background.svg"
-dest_files=["res://.godot/imported/background.svg-29d5b36335b7d586854ee303c8aa698e.ctex"]
+source_file="res://assets/sprites/project/track700.png"
+dest_files=["res://.godot/imported/track700.png-66fe696adebea0294383d238e15e385b.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

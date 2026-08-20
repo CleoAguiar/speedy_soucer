@@ -7,6 +7,8 @@ extends Node2D
 @onready var ui: CanvasLayer = $Graphics/UI
 @onready var hud: Control = $Graphics/UI/HUD
 @onready var player: RigidBody2D = $Player
+@onready var out_of_bounds_effect: Control = $Graphics/UI/OutOfBoundsEffect
+
 
 var start_time: int = 0
 var elapsed_time_msec: int = 0
@@ -47,6 +49,8 @@ func _on_maze_body_exited(_body: Node2D) -> void:
 	AudioManager.play_collision()
 	await get_tree().create_timer(0.10).timeout
 	
+	out_of_bounds_effect.play()
+
 	AudioManager.play_restart()
 	await get_tree().create_timer(0.25).timeout
 
